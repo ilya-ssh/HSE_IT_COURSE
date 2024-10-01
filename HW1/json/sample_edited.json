@@ -1,0 +1,29 @@
+{
+    "Title": "The Great Adventure",
+    "Author": {
+        "FirstName": "Jane",
+        "LastName": "Doe"
+    },
+    "PublishedYear": 2021,
+    "Genres": [
+        "Adventure",
+        "Fantasy",
+        "Mystery"
+    ],
+    "ISBN": "123-456-789",
+    "AvailableCopies": 5,
+    "BorrowedBy": [
+        {
+            "Name": "John Smith"
+        },
+        {
+            "Name": "Emily White"
+        }
+    ],
+    "LibraryLocation": {
+        "Section": "Fiction",
+        "ShelfNumber": 12,
+        "Aisle": "B"
+    },
+    "IsAvailable": true
+}
