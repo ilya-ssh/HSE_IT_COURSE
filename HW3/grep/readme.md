@@ -1,7 +1,7 @@
 **Grep Exercises**  
 
 1. Find all lines containing the word "quick" in file1.txt and save to quick.txt  
-grep "quick" file1.txt > quick.txt  
+grep "\bquick\b" file1.txt > quick.txt 
 2. Count the number of lines containing the word "the" (case-insensitive) in file1.txt and save to the_count.txt  
 grep -i -c "the" file1.txt > the_count.txt (-i for insensitive and c for count)  
 3. Find all lines that start with "The" in file1.txt and save to the.txt  
